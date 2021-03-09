@@ -1,0 +1,133 @@
+# # Игнорировать временные файлы Visual Studio, результаты сборки и
+# # файлы, созданные популярными надстройками Visual Studio.
+
+# Файлы для конкретных пользователей
+* .suo
+* .user
+* .sln.docstates
+
+# Результаты сборки
+
+[ Dd ] ebug /
+[ Rr ] elease /
+x64 /
+[ Bb ] в /
+[ Oo ] bj /
+
+# Результаты теста MSTest
+[ Tt ] Эст [ Rr ] esult * /
+[ Bb ] uild [ Ll ] og. *
+
+* _i.c
+* _p.c
+* _i.h
+* .ilk
+* .meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* .log
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+* .log
+* .svclog
+* .scc
+
+# Файлы кэша Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Профилировщик Visual Studio
+* .psess
+* .vsp
+* .vspx
+
+# Набор средств автоматизации наведения
+* .gpState
+
+# ReSharper - это надстройка для программирования .NET
+_ReSharper * /
+* . [ Rr ] e [ Ss ] Харпер
+* .DotSettings.user
+
+# Каталог Click-Once
+опубликовать /
+
+# Публикация веб-вывода
+* .Publish.xml
+* .pubxml
+* .azurePubxml
+
+# Каталог пакетов NuGet
+# # ЗАДАЧА: если у вас включено восстановление пакета NuGet, раскомментируйте следующую строку
+пакеты /
+# # ЗАДАЧИ: если для используемого вами инструмента требуется repositories.config, также раскомментируйте следующую строку
+! пакеты / repositories.config
+
+# Вывод сборки Windows Azure
+csx /
+* .build.csdef
+
+# Каталог пакетов приложений Магазина Windows
+AppPackages /
+
+# Другое
+sql /
+* .Cache
+ClientBin /
+[ Ss ] tyle [ Cc ] op. *
+! [ Ss ] tyle [ Cc ] op.targets
+~ $ *
+* ~
+* .dbmdl
+* . [ Pp ] ublish.xml
+
+* .publishsettings
+
+# Проекты RIA / Silverlight
+Generated_Code /
+
+# Резервное копирование и файлы отчетов от преобразования старого файла проекта в новый
+# Версия Visual Studio. Файлы бэкапа не нужны, потому что у нас есть git ;-)
+_UpgradeReport_Files /
+Резервное копирование * /
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# Файлов SQL Server
+App_Data / * .mdf
+App_Data / * .ldf
+
+# =========================
+# Окна мусора
+# =========================
+
+# Кэш файлов изображений Windows
+Thumbs.db
+ehthumbs.db
+
+# Файл конфигурации папки
+Desktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$ RECYCLE.BIN /
+
+# Настольная служба Mac для хранения файлов
+.DS_Store
+
+_NCrunch *
